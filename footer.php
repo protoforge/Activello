@@ -20,6 +20,9 @@
 					<div class="copyright col-md-12">
 						&copy; <?php echo date("Y"); ?> <?php echo esc_html( get_theme_mod( 'activello_footer_copyright', 'Activello' ) ); ?>
 					</div>
+					<div class="copyright col-md-12">
+						<?php activello_footer_info(); ?>
+					</div>
 				</div>
 			</div><!-- .site-info -->
 			<div class="scroll-to-top"><i class="fa fa-angle-up"></i></div><!-- .scroll-to-top -->
